@@ -1,2 +1,2 @@
-1. npn install
-2. npn run dev
+1. npm install
+2. npm run dev
