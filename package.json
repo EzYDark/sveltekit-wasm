@@ -4,7 +4,8 @@
 	"scripts": {
 		"wasm": "wasm-pack build ./wasm --target web",
 		"dev": "npm run wasm && vite dev",
-		"build": "vite build",
+		"build": "npm run wasm && vite build",
+		"build:cf": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
